@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Animated Login Form</title>
+	<link rel="stylesheet" type="text/css" href="/css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/a81368914c.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<img class="wave" src="https://github.com/sefyudem/Responsive-Login-Form/blob/master/img/wave.png?raw=true">
+	<div class="container">
+		<div class="img">
+			<img src="https://raw.githubusercontent.com/sefyudem/Responsive-Login-Form/82b8d8efd3b0ac6382b9d0d71a99c6cf9dcefa23/img/bg.svg">
+		</div>
+		<div class="login-content">
+			<form action="/users/create-session" method="POST">
+				<img src="https://raw.githubusercontent.com/sefyudem/Responsive-Login-Form/82b8d8efd3b0ac6382b9d0d71a99c6cf9dcefa23/img/avatar.svg">
+                <h2 class="title">Welcome</h2>
+                
+
+                <div class="input-div one">
+                    <div class="i">
+                            <img src="https://image.flaticon.com/icons/svg/2991/2991148.svg"  height="30px" width="30px">
+                    </div>
+                     <div>
+                        <h5><a href="/users/auth/google">Google Sign In/Sign Up</a></h5>
+                            
+                    </div>
+                 </div>
+
+                 <p>or</p>
+
+           		<div class="input-div one">
+           		   <div class="i">
+           		   		<i class="fas fa-user"></i>
+           		   </div>
+           		   <div class="div">
+           		   		<h5>E-Mail</h5>
+                              <input type="email" name="email"  required>
+           		   </div>
+           		</div>
+           		<div class="input-div pass">
+           		   <div class="i"> 
+           		    	<i class="fas fa-lock"></i>
+           		   </div>
+           		   <div class="div">
+           		    	<h5>Password</h5>
+                           <input type="password" name="password"  required>
+            	   </div>
+                </div>
+
+               
+            	<input type="submit" class="btn" value="Login">
+            </form>
+        </div>
+    </div>
+    <script type="text/javascript" src="/js/main.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <h1>Sign-In</h1>
+
+<form action="/users/create-session" method="POST">
+
+    <input type="email" name="email" placeholder="E-Mail" required>
+    <input type="password" name="password" placeholder="password" required>
+    <input type="submit" value="Sign-In">
+</form>
+
+<p>
+    <a href="/users/auth/google">Google Sign In/Sign Up</a>
+</p> -->
