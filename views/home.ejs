@@ -1,1 +1,11 @@
 <h1>Home</h1>
+
+<h3>All Users</h3>
+
+<ul>
+    <% for(user of Users){ %>
+
+        <li> <a href="/users/profile/<%= user._id%>"><%= user.name %></a> </li>
+
+        <% } %>
+</ul>

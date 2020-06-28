@@ -1,0 +1,33 @@
+
+<h3><%= puser.name %></h3>
+
+<h4><%= puser.email %></h4>
+
+<h3>Change Your Password</h3>
+
+
+
+<% if(id == puser._id){ %>
+
+    <!-- if user matches the show this form -->
+
+    <form action="/users/update/<%= puser._id %>"  method="POST">
+
+        <input type="password" name ="old" placeholder="Old Password"  required>
+        <input type="password" name="new" placeholder="New Password" required>
+
+        <input type="hidden" name ="email" placeholder="Your Email" value="puser.email" required>
+
+       
+        <input type="submit" value='submit'>
+</form>
+<%} %>
+
+
+
+
+
+
+
+
+
