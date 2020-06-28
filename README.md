@@ -12,7 +12,7 @@ This is a secure sign-up and log-in system using passport-local for authenticati
 ![Sign-In](https://github.com/pushpendraGit/Sign-in-Sign-up/blob/master/assets/img/sign-in.png?raw=true)
 
 
-## Password Stored In Database is Incrypted
+## Password Stored In Database is Encrypted
 
 ![Sign-In](https://github.com/pushpendraGit/Sign-in-Sign-up/blob/master/assets/img/password.jpg?raw=true)
 
